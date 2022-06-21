@@ -13,28 +13,39 @@ header {
    justify-content: flex-end;
    flex-wrap: nowrap;
    margin-right: 10rem;
+   
 }
 a {
    margin: 1rem 1rem; 
    color: antiquewhite;
+   margin-top: 30px;
 }
 .slide_container {
  display: flex;
  justify-content: center;
  align-items: center;
-   margin: auto auto;
-   max-width: 100%;
-   width: 500px;
-   height: 600px;
-   overflow: hidden;
-   position: relative;
-   font-size: 2rem;
+ margin: auto auto;
+ max-width: 100%;
+ width: 500px;
+ height: 600px;
+ overflow: hidden;
+ position: relative;
+ font-size: 2rem;
 
+ }
+ .logo {
+    margin-right: 15rem;
+    color:antiquewhite ;
+    font-size: 30px;
+    
+ }
+ .lg {
+    margin-top: 15px;
  }
  .slide {
    display: flex;
    justify-content: center;
-   align-items: center;
+   align-items: flex-end;
    position: absolute;
    animation: round 16s infinite;
    opacity: 0;
@@ -68,4 +79,6 @@ a {
  p:nth-child(4) {
    animation-delay: 0s;
  }
+
+
  
