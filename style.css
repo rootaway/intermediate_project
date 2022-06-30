@@ -124,7 +124,7 @@ a {
     background-color: #f9f8f7;
     max-width: 1920px;
     width: 100%;
-    height: 800px;
+    
     
  }
  .footer_1 {
@@ -133,7 +133,7 @@ a {
   background-repeat: no-repeat;
   max-width: 1400px;
   width: 100%;
-  height: 130px;
+  
   
   
   
@@ -146,6 +146,7 @@ a {
   height: 130px;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   
   
   
@@ -155,6 +156,7 @@ a {
   background:#998675;
   color: #f9f8f7;
   border: none;
+  height: 30px;
 }
 
 .text1 {
@@ -173,3 +175,48 @@ a {
   font-size: 15px;
  }
  
+ .main_2 {
+  display: grid;
+  width: 1920px;
+  max-width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(4, 250px);
+  margin: 0;
+  column-gap: 1vw;
+  
+ }
+
+ .item_1 {
+  grid-column: 1/4;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family:'Tiro Bangla', serif;
+  
+ }
+ .it_1 {
+  width: 550px;
+  max-width: 100%;
+  font-size: 30px;
+ }
+ .but {
+  display: flex;
+  justify-content: space-around;
+  width: 550px;
+  max-width: 100%;
+  margin-top: 20px;
+ }
+.button_3 {
+  background-color: #f9f8f7;
+  
+}
+.button_3:hover {
+  background-color: #615855;
+}
+ 
+
+ .item_7 {
+  grid-column: 1/4;
+ }
