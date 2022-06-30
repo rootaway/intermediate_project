@@ -2,7 +2,7 @@ body {
   margin: 0%;
 }
 header {
-    background-image: url(/fon-page2.jpg);
+    background-image: url(/image/fon-page2.jpg);
     max-width: 1920px;
     width: 100%;
     height: 800px;
@@ -129,7 +129,7 @@ a {
  }
  .footer_1 {
   display:flex;
-  background-image: url(/end-page.jpg);
+  background-image: url(/image/end-page.jpg);
   background-repeat: no-repeat;
   max-width: 1400px;
   width: 100%;
@@ -180,9 +180,10 @@ a {
   width: 1920px;
   max-width: 100%;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(4, 250px);
+  grid-template-rows: repeat(4, 335px);
   margin: 0;
-  column-gap: 1vw;
+  column-gap: 5vw;
+  row-gap: 4vw;
   
  }
 
@@ -204,9 +205,11 @@ a {
  .but {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   width: 550px;
   max-width: 100%;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: -50px;
  }
 .button_3 {
   background-color: #f9f8f7;
@@ -216,7 +219,50 @@ a {
   background-color: #615855;
 }
  
+.item_2 {
+  background-image: url(/image/mobila.jpg);
+  background-repeat: no-repeat;
+}
+.item_3 {
+  background-image: url(/image/nutamus.jpg);
+  background-repeat: no-repeat;
+}
+.item_4 {
+  background-image: url(/image/usus.jpg);
+  background-repeat: no-repeat;
+}
+.item_5 {
+  background-image: url(/image/mountain.jpg);
+  background-repeat: no-repeat;
+} 
+.item_6 {
+  background-image: url(/image/book.jpg);
+  background-repeat: no-repeat;
+}
+.item_7 {
+  background-image: url(/image/rock.jpg);
+  background-repeat: no-repeat;
+}
 
- .item_7 {
+.item_8 {
   grid-column: 1/4;
+  
+}
+ .more {
+  display: flex;
+  justify-content: center;
+}
+
+ .button_4 {
+  background:#998675;
+  color: #f9f8f7;
+  border: none;
+  height: 30px;
+ }
+
+ .video {
+   /* max-width: 1920px;
+   width: 100%;
+   height: 600px; */
+   
  }
