@@ -336,14 +336,18 @@ li::before {
 
 .hitem_4 {
   background-image: url(/image/shoes.jpg);
+  background-repeat: no-repeat;
+  
 }
 
 .hitem_5 {
   background-image: url(/image/notebook.jpg);
+  background-repeat: no-repeat;
 }
 
 .hitem_6 {
   background-image: url(/image/ship.jpg);
+  background-repeat: no-repeat;
 }
 
 .end_moun {
