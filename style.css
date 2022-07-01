@@ -3,7 +3,7 @@ body {
 }
 header {
     background-image: url(/image/fon-page2.jpg);
-    max-width: 1920px;
+    max-width: 1400px;
     width: 100%;
     height: 800px;
     
@@ -177,10 +177,10 @@ a {
  
  .main_2 {
   display: grid;
-  width: 1920px;
+  width: 1400px;
   max-width: 100%;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(4, 335px);
+  grid-template-rows: repeat(3, 350px) 100px;
   margin: 0;
   column-gap: 5vw;
   row-gap: 4vw;
@@ -261,8 +261,53 @@ a {
  }
 
  .video {
-   /* max-width: 1920px;
+  display: flex;
+  background-image: url(/image/video.jpg);
+   max-width: 1400px;
    width: 100%;
-   height: 600px; */
+   height: 600px;
    
+ }
+
+
+ .main_3 {
+  display: grid;
+  width: 1400px;
+  max-width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 640px 200px 100px 335px 200px;
+ }
+
+ .hitem_1 {
+  grid-column: 1/4;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fbfaf8;
+  
+ }
+ .mobila {
+  background-image: url(/image/mobila_1.jpg);
+  width: 450px;
+  max-width: 100%;
+  height: 640px;
+ }
+ 
+ .text_mobila {
+  width: 500px;
+  max-width: 100%;
+  margin-top: 100px;
+ }
+ li {
+  list-style-type: none;
+  font-family:'Tiro Bangla', serif;
+}
+li::before {
+  content: url(/image/strelochka.jpg);
+  
+ }
+ p {
+  font-family:'Tiro Bangla', serif;
+ }
+ .rt {
+  font-size: 30px;
  }
