@@ -361,3 +361,23 @@ flex-wrap: wrap;
   background-image: url(/image/mountains.jpg);
   margin-top: 100px;
 }
+
+.inform {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #191919;
+  width:1400px;
+  max-width: 100%;
+  color: #f9f8f7;
+  justify-content: space-evenly;
+
+}
+
+.blocks {
+  
+  width: 272px;
+  max-width: 100%;
+}
+.blue {
+  color: blue;
+}
